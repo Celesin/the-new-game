@@ -8,6 +8,9 @@ def print_hi(name):
     # Use a breakpoint in the code line below to debug your script.
     print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
 
+ def subscription():
+    if amount >4000000:
+        print "you are not allowed to acee"
 
 # Press the green button in the gutter to run the script.
 if __name__ == '__main__':
@@ -23,7 +26,9 @@ print(myadd(3,42)
      def print_hi(name):
     # Use a breakpoint in the code line below to debug your script.
     print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint. 
-
+def subscription():
+    if amount >4000000:
+        print "you are not allowed to acee"
 # Press the green button in the gutter to run the script.
 if __name__ == '__main__':
     print_hi('PyCharm')
